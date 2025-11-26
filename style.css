@@ -1,0 +1,8 @@
+.btn{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 780px;
+    padding: 10px 10px 10px 10px;
+}
