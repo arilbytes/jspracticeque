@@ -1,8 +1,18 @@
-.btn{
+#sbmtbtn{
     position: relative;
-    justify-content: center;
+    justify-content: left;
     display: flex;
-    margin-top: 80px;
-    margin-left: 780px;
+    margin-top: 40px;
     padding: 10px 10px 10px 10px;
+    margin-left: 150px;
+}
+
+.faram{
+    font-size: larger;
+    font-family: cursive;
+}
+
+.inputans{
+    margin-top: 20px;
+    padding: 10px 10px;
 }
