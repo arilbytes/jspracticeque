@@ -62,23 +62,59 @@
 //     }    
 // })
 
+// Question - 4
 
-var add = document.querySelector("#add");
-var remove = document.querySelector("#remove");
-var inp = document.querySelector("input");
-var ul = document.querySelector('ul');
-var li;
+// var add = document.querySelector("#add");
+// var remove = document.querySelector("#remove");
+// var inp = document.querySelector("input");
+// var ul = document.querySelector('ul');
+// var li;
 
-add.addEventListener("click", function(){
-    if(inp.value.trim() === ''){}
-    else{
-        li = document.createElement("li");
-        li.textContent = inp.value;
-        ul.appendChild(li);
-        inp.value = '';
-    }
-})
+// add.addEventListener("click", function(){
+//     if(inp.value.trim() === ''){}
+//     else{
+//         li = document.createElement("li");
+//         li.textContent = inp.value;
+//         ul.appendChild(li);
+//         inp.value = '';
+//     }
+// })
 
-remove.addEventListener("click", function(){
-    ul.removeChild(li);
-})
+// remove.addEventListener("click", function(){
+//     ul.removeChild(li);
+// })
+
+// Question - 5 :
+
+// var start = document.querySelector('#start');
+// var h3 = document.querySelector('h3');
+// var stop = document.querySelector('#stop');
+// var int;
+
+// start.addEventListener("click", function(){
+//     var count = 0;
+//     int = setInterval(function(){
+//         h3.textContent = count;
+//         count++;
+//     }, 1000)
+// })
+
+// stop.addEventListener("click", function(){
+//     clearInterval(int);
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
