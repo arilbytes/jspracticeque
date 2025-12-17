@@ -103,13 +103,36 @@
 //     clearInterval(int);
 // })
 
+// Question - 6 // Approach 1st : Brute Force
 
+// var aril = document.querySelector('#aril')
+// var neev = document.querySelector('#neev')
+// var akash = document.querySelector('#akash')
 
+// var text4aril = document.querySelector('#text4aril')
+// var text4neev = document.querySelector('#text4neev')
+// var text4akash = document.querySelector('#text4aksh')
 
+// function sabhtao(){
+//     document.querySelectorAll('h3').forEach(function(h3){
+//         h3.style.display = 'none';
+//     })
+// }
 
+// aril.addEventListener("click", function(){
+//     sabhtao();
+//     text4aril.style.display = 'block';
+// })
 
+// neev.addEventListener("click", function(){
+//     sabhtao();
+//     text4neev.style.display = 'block';
+// })
 
-
+// akash.addEventListener("click", function(){
+//     sabhtao();
+//     text4akash.style.display = 'block';
+// })
 
 
 
