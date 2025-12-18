@@ -135,8 +135,25 @@
 // })
 
 
+var start = document.querySelector("#start");
+var progress = document.querySelector("#progress");
+var h3 = document.querySelector("h3");
 
 
+
+start.addEventListener("click", function(){
+    var speed = 0;
+    h3.style.display = 'block';
+    var int = setInterval(function(){
+        if(speed === 99){
+            clearInterval(int)
+            h3.textContent = "Download Done!"
+        }
+        speed++;
+        progress.style.width = speed+'%';
+
+    }, 50)
+})
 
 
 
